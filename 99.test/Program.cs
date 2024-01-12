@@ -7,7 +7,7 @@ namespace _99.test
     {
         static void Main(string[] args)
         {
-            // 1~4번 문제
+            // 24.01.11 1~4번 문제
 
             UseKeyList useKeyList = new UseKeyList();
             useKeyList.UseKeySave();
@@ -15,8 +15,13 @@ namespace _99.test
             useKeyList.Display();
 
 
-            // 5번 문제
+            // 24.01.11 5번 문제
             useKeyList.AddRemove();
+
+
+            // 24.01.12 1~3번 문제
+            LinkedList linkedList = new LinkedList();
+            LinkedList.Linked();
         }
     }
 
