@@ -75,6 +75,5 @@ public class LinkedList
                 linkedList.AddLast(i);
             }
         }
-
     }
 }
